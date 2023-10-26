@@ -34,7 +34,7 @@ createuser --createdb --username postgres --no-createrole --no-superuser --pwpro
 exit
 ```
 
-## 5- Descargamos Odoo, Instalamos unzip
+## 5- Instalamos unzip
 
 ```linux
 apt-get install unzip
