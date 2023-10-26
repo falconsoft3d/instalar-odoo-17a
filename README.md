@@ -157,7 +157,7 @@ nano /etc/odoo/odoo.conf
 ```linux
 db_user = odoo
 db_password = CLAVE DEL USUARIO  ODOO EN POSTGRES
-addons_path = /opt/odoo/server/addons,/opt/odoo/server/extra-addons/odoo_chile_community,/opt/odoo/server/extra-addons/odoo-modulos-3ros,/opt/odoo/server/extra-addons/odoo_general,/opt/odoo/server/extra-addons/odoo_chile_rrhh,/opt/odoo/server/extra-addons/odoo-modulos-web,/opt/odoo/server/extra-addons/odoo_general_web
+addons_path = /opt/odoo/server/addons
 logfile = /var/log/odoo/odoo-server.log
 logrotate = True
 log_level = warn
@@ -204,7 +204,7 @@ update-rc.d postgresql enable
 ## 21- Editar archivo de configuración de postgres pg_hba.conf
 
 ```linux
-nano /etc/postgresql/10/main/pg_hba.conf
+nano /etc/postgresql/12/main/pg_hba.conf
 ```
 Editamos la siguiente linea
 
