@@ -267,7 +267,17 @@ server_name j.wemakeyourdayeasy.com 11.64.123.12;
 nginx -s reload
 ```
 
-## 27- test local
+## 27- Si querenmos instalar Odoo 17 enterprise
+```linux
+cd /opt/odoo/server/extra-addons
+git clone git@github.com:odoo/enterprise.git
+cd enterprise
+git checkout 17.0
+nano /etc/odoo/odoo.conf
+addons_path = /opt/odoo/server/addons,/opt/odoo/server/extra-addons/enterprise
+```
+
+## XX- test local
 
 ```linux
 su - odoo -s /bin/bash
