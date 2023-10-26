@@ -8,7 +8,8 @@ Marlon Falcón Hernández | Madrid, España
 - Github: https://github.com/falconsoft3d
 - linkedin: https://linkedin.com/in/marlon-falcón-3a2aa9a4
 
-## 1- Necesitas tener python 3.10 , ubuntu 22.04 lo tiene.
+## 0- Necesitas tener python 3.10 , ubuntu 22.04 lo tiene.
+Puedes crearte un server en : https://m.do.co/c/7f5c3af8d6bb
 ![Alt text](https://github.com/falconsoft3d/instalar-odoo-17/blob/main/odoo-17.png?raw=true "Odoo17")
 
 ## 1- Actualizamos el sistema
