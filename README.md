@@ -269,6 +269,9 @@ nginx -s reload
 
 ## 27- Si queremos instalar enterprise, claro tenemos que ser partner...
 ```linux
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+
 cd /opt/odoo/server/extra-addons
 git clone git@github.com:odoo/enterprise.git
 cd enterprise
