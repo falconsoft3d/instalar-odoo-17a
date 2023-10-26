@@ -43,5 +43,13 @@ apt-get install unzip
 ## 6- Instalación de librerias, actualizamos pip e instalamos dependencias python de Odoo
 
 ```linux
-apt install python-pip libcups2-dev libxml2-dev libxslt-dev node-less libsasl2-dev libldap2-dev python-lxml -y
+apt install python3-pip
+```
+
+## 7- Ingresamos en la carpeta /opt/odoo y descargamos la fuente para la versión comunity
+
+```linux
+cd /opt/odoo/
+wget https://github.com/odoo/odoo/archive/17.0.zip
+unzip 17.0.zip
 ```
