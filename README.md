@@ -207,7 +207,7 @@ update-rc.d postgresql enable
 ## 21- Editar archivo de configuración de postgres pg_hba.conf
 
 ```linux
-nano /etc/postgresql/12/main/pg_hba.conf
+nano /etc/postgresql/14/main/pg_hba.conf
 ```
 Editamos la siguiente linea
 
