@@ -13,3 +13,35 @@ Marlon Falcón Hernández | Madrid, España
 ```linux
 apt-get update && apt-get upgrade -y
 ```
+
+## 2- Creamos el usuario Odoo
+
+```linux
+adduser --system --home=/opt/odoo --group odoo
+```
+
+## 3- Instalamos postgresql
+
+```linux
+sudo apt install postgresql postgresql-contrib
+```
+
+## 4- Reiniciamos postgres, iniciamos sesión en postgres y creamos el usuario postgres
+```linux
+service postgresql restart
+su - postgres
+createuser --createdb --username postgres --no-createrole --no-superuser --pwprompt odoo
+exit
+```
+
+## 5- Descargamos Odoo, Instalamos unzip
+
+```linux
+apt-get install unzip
+```
+
+## 6- Instalación de librerias, actualizamos pip e instalamos dependencias python de Odoo
+
+```linux
+apt install python-pip libcups2-dev libxml2-dev libxslt-dev node-less libsasl2-dev libldap2-dev python-lxml -y
+```
