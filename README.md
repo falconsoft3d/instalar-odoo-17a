@@ -244,3 +244,11 @@ apt install -f
 ```linux
 tail -f /var/log/odoo/odoo-server.log
 ```
+
+## 26- test local
+
+```linux
+su - odoo -s /bin/bash
+cd /opt/odoo/server
+./odoo-bin -c /etc/odoo/odoo.conf
+```
