@@ -9,7 +9,7 @@ Marlon Falcón Hernández | Madrid, España
 - linkedin: https://linkedin.com/in/marlon-falcón-3a2aa9a4
 
 ## 1- Necesitas tener python 3.10
-![Alt text](https://github.com/falconsoft3d/instalar-odoo-17/blob/master/logo-odoo-17.png?raw=true "Odoo17")
+![Alt text](https://github.com/falconsoft3d/instalar-odoo-17/blob/main/logo-odoo-17.png?raw=true "Odoo17")
 
 ## 1- Actualizamos el sistema
 
