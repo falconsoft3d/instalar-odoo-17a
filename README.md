@@ -238,3 +238,9 @@ apt install -f
 ```linux
 /etc/init.d/odoo restart
 ```
+
+## 25- Vemos el Log
+
+```linux
+tail -f /var/log/odoo/odoo-server.log
+```
