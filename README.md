@@ -8,6 +8,9 @@ Marlon Falcón Hernández | Madrid, España
 - Github: https://github.com/falconsoft3d
 - linkedin: https://linkedin.com/in/marlon-falcón-3a2aa9a4
 
+## 1- Necesias tener python 3.10
+
+
 ## 1- Actualizamos el sistema
 
 ```linux
