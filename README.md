@@ -65,8 +65,9 @@ chown -R odoo: server
 ```
 
 ## 9- Creando un directorio para almacenar el archivo de logs
-
 ```linux
+sudo apt-get update
+sudo apt-get install libpq-dev python3.10-dev
 pip install -r /opt/odoo/server/requirements.txt
 ```
 
