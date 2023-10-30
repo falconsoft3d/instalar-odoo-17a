@@ -280,7 +280,7 @@ nano /etc/odoo/odoo.conf
 addons_path = /opt/odoo/server/addons,/opt/odoo/server/extra-addons/enterprise
 ```
 
-## 27- Clave publica
+## 28- Clave publica
 ```linux
 ssh-keygen
 cat ~/.ssh/id_rsa.pub
